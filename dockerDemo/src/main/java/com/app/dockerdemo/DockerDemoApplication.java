@@ -21,7 +21,7 @@ public class DockerDemoApplication {
     public Map<String, Object> sayHello(){
         Map<String, Object> data = new HashMap<>();
         data.put("name","From Docker nouvel ajout");
-        data.put("NEW","NEW TEXT PUSH 3");
+        data.put("NEW","NEW TEXT PUSH 4");
         data.put("counter",10);
         return data;
     }
