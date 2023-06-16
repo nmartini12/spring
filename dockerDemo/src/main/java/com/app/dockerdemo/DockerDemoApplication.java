@@ -20,7 +20,7 @@ public class DockerDemoApplication {
     @GetMapping("/test")
     public Map<String, Object> sayHello(){
         Map<String, Object> data = new HashMap<>();
-        data.put("name","From Docker");
+        data.put("name","From Docker nouvel ajout");
         data.put("counter",10);
         return data;
     }
